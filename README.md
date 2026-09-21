@@ -1,2 +1,2 @@
 # Homelab
-Detailed mapping of homelab environment 
+A map of my homelab: a 2-node Proxmox VE cluster (donlabnetwork) running a mix of self-hosted services, dev sandboxes, and a gaming VM. This repo documents the architecture, not raw config exports — no MACs, UUIDs, or internal LAN IPs are included.
