@@ -6,14 +6,13 @@ Node	LAN	Role
 pve1	<node1-lan-ip>/24	primary node
 pve2	<node2-lan-ip>/24	secondary node
 
-Both nodes run Proxmox VE 9.1.0 (kernel 6.17.2-1-pve, pve-manager 9.1.1) and are joined via corosync/knet, with a Tailscale overlay (100.88.xx.xx / 100.86.xxx.xx) used for cluster/management traffic.
+Both nodes run Proxmox VE 9.1.0 (kernel 6.17.2-1-pve, pve-manager 9.1.1) and are joined via corosync/knet, with a Tailscale overlay used for cluster/management traffic.
 
 Guests
 
 VMID	Node	Name	Type	vCPU	RAM	Disk	Notes
 100	pve1	—	VM (Windows 11)	4	4 GB	64 GB	
 101	pve1	—	VM (Linux)	2	4 GB	32 GB	
-102	pve2	mcserver	VM (Linux)	4	20 GB	64 GB SSD	
 106	pve1	postgres	LXC	2	1 GB	8 GB	shared Postgres instance
 111	pve1	hermeslab	VM (Linux)	10	14 GB	52 GB	
 201	pve2	inflab	VM (Linux)	8	49 GB	104 GB SSD	GPU passthrough
