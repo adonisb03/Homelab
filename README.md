@@ -35,4 +35,3 @@ Storage
 Repo scope
 
 This repo intentionally documents the shape of the homelab (nodes, guests, resource allocation, network/storage design) rather than exporting live configs. Real IPs, MAC addresses, and hardware/VM identifiers are excluded — they're operational details specific to my LAN, not the architecture.
-hows this for repo
